@@ -19,3 +19,9 @@ The recommendation system is built using the following steps:
 3. **Text Vectorization**: Converting the text data into numerical vectors using the CountVectorizer from scikit-learn.
 4. **Cosine Similarity**: Calculating the cosine similarity between the movie vectors to determine their similarity.
 5. **Recommendation Function**: Implementing a function to recommend movies based on a given movie title.
+
+## Web Application
+
+This project also includes a web application built with Flask. To run the web app:
+Ensure that you have the preprocessed data files (`movies.pkl`, `movie_dict.pkl`, `similarity.pkl`) in the project directory.
+Open your web browser and go to `http://127.0.0.1:5000/` to access the movie recommender system.
